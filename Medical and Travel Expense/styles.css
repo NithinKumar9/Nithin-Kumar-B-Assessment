@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-size: 19px;
+    line-height: 1.4;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #004b99;
+}
+
+.container {
+    max-width: 8.5in;
+    margin: 0 auto;
+    background-color: white;
+    padding: 0.5in;
+    min-height: 100vh;
+    box-shadow: none;
+    border-radius: 5px;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wcb-logo-img {
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+.contact-info {
+    text-align: left;
+    font-size: 10px;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.contact-info p {
+    font-family: 'Century Gothic', 'Paneuropean Regular', sans-serif;
+    margin: 0.5px 0;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.title-section {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.title-section h1 {
+    font-size: 16px;
+    color: #000;
+    margin: 0 0 8px 0;
+    letter-spacing: 0;
+}
+
+.claim-box {
+    border: 2px solid #000;
+    padding: 6px 10px;
+    text-align: center;
+    left: 10px;
+    font-size: 10px;
+    min-width: 120px;
+    line-height: 1.2;
+}
+
+
+.content {
+    margin-top: 15px;
+    font-family: Georgia, serif;
+}
+
+.content > p {
+    margin-bottom: 15px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+#workerName {
+    color: #000;
+    font-weight: normal;
+}
+
+.worker-name-blue {
+    color: #01386f;
+    font-weight: normal;
+}
+
+section {
+    margin-bottom: 20px;
+    page-break-inside: avoid;
+}
+
+section h2 {
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #000;
+    border-bottom: none;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    font-size: 11px;
+    border: 1px solid #000;
+}
+
+.data-table thead {
+    background-color: #ffffff;
+}
+
+.data-table thead th {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    font-size: 11px;
+}
+
+.data-table tbody td {
+    border: 1px solid #000;
+    padding: 7px 8px;
+    word-wrap: break-word;
+    font-size: 11px;
+    color: #01386f;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.data-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.note {
+    font-size: 11px;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 10px;
+}
+
+.checkbox-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 15px;
+    font-size: 11px;
+}
+
+.checkbox-section input[type="checkbox"] {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.checkbox-section label {
+    cursor: pointer;
+    line-height: 1.4;
+    flex: 1;
+}
+
+.footer-info {
+    text-align: left;
+    font-size: 10px;
+    color: #000;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info p {
+    margin: 0;
+}
+
+
+
